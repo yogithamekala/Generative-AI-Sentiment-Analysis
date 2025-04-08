@@ -75,20 +75,6 @@ This repository contains code to perform sentiment analysis on text data using t
     create_sentiment_distribution_graph()
     ``` 
 
-### Notes 
-
-<mark>This code assumes you have access to the Google Generative AI API and have obtained an API key.</mark>
-
-Be mindful of API quotas and usage limits when running the code.
-
-Make sure to customize the file paths and column names to match your data. Also after each run make sure to clear the contents or delete the csv output file.
-
-The script create_sentiment_distribution_graph generates a bar chart of sentiment distribution, but ensure that matplotlib is properly configured to display the chart.
-
-The code provided processes data in chunks to manage API requests. It currently only supports one record at a time feel but free to Adjust the time.sleep duration as needed.
-
-The dataset used is a partial set of records for food reviews that were obatined from the Stanford Network Analysis Project hosted here: https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
-
 
 
 
